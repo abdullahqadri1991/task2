@@ -1,0 +1,84 @@
+ #main {
+     width: 98.5%;
+     height: 70px;
+     font-size: 18px;
+     font-family: ;
+     display: flex;
+     background-color: beige;
+     border: 3px solid black;
+     position: fixed;
+ }
+
+ #home,
+ #services,
+ #work,
+ #about,
+ #contact {
+     margin: 20px 30px;
+ }
+
+ #home:hover,
+ #services:hover,
+ #work:hover,
+ #about:hover,
+ #contact:hover {
+     color: red;
+     font-family: initial;
+     border-bottom: 2px solid red;
+ }
+
+ #home {
+     margin-left: 250px;
+ }
+
+ #freecoummunication {
+     width: 200px;
+     height: 40px;
+     margin-top: 15px;
+     margin-left: 120px;
+     background-color: blue;
+     font-size: 18px;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     box-shadow: 2px 2px 2px 2px black;
+
+ }
+
+ #freecoummunication:hover {
+     background-color: rgb(205, 223, 10);
+     font-size: 18px;
+     color: rgb(0, 0, 0);
+     font-family: Arial, Helvetica, sans-serif;
+     box-shadow: 2px 2px 2px 2px rgb(164, 163, 163);
+     font-family: initial;
+ }
+
+ #freecoummunication:focus {
+     background-color: rgb(10, 223, 124);
+     font-size: 18px;
+     color: rgb(222, 10, 10);
+     font-family: Arial, Helvetica, sans-serif;
+     box-shadow: 2px 2px 2px 2px rgb(164, 163, 163);
+     font-family: initial;
+ }
+
+ #heading1 {
+     position: absolute;
+     top: 180px;
+     margin-left: 200px;
+ }
+
+ #img2 {
+     margin-top: 50px;
+     margin-left: 20px;
+     margin-right: 20px;
+     float: left;
+ }
+
+ #heading2,
+ p {
+     display: flex;
+     font-size: 22px;
+     margin-left: 20px;
+     text-align: justify;
+ }
